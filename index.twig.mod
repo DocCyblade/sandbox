@@ -17,7 +17,14 @@
             </div>
 
             <div id="next">
-                <h2>What's next?</h2><p>This welcome page is being served via app_dev.php.</p><p>You should secure it by specifying your IP address in <i>/var/www/symfony/web/app_dev.php</i></p><p>When ready for production, update <i>/var/www/symfony/web/.htaccess</i> to specify app.php instead.</p><p>Be sure to check out the <a href='{{ app.request.host }}'>Symfony Demo Application</a></p><p><i>Note: The database configuration is already setup for you, enjoy!</i></p>
+                 
+                <h2>What do I do now?</h2>
+                        <p>This welcome page is being served via app_dev.php.</p> 
+                        <p>You should secure it by specifying your IP address in <i>/var/www/symfony/web/app_dev.php</i></p> 
+                        <p>When ready for production, update <i>/var/www/symfony/web/.htaccess</i> to specify app.php instead.</p> 
+                        <p>Be sure to check out the <a href='{{ app.request.host }}:8000'>Symfony Demo Application</a></p> 
+                        <p><i>Note: The database configuration is already setup for you, enjoy!</i></p> 
+
                 <p>
                     <svg id="icon-book" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="-12.5 9 64 64" enable-background="new -12.5 9 64 64" xml:space="preserve">
                         <path fill="#AAA" d="M6.8,40.8c2.4,0.8,4.5-0.7,4.9-2.5c0.2-1.2-0.3-2.1-1.3-3.2l-0.8-0.8c-0.4-0.5-0.6-1.3-0.2-1.9
